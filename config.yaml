@@ -53,7 +53,7 @@ variables:
         - sa-east-1
   FILTERED_OBJECTS:
     description: "JSON object of string or regex of aws objects to include or exclude and tag in audit"
-    required: true
+    required: false
     type: string
     default:
   AUDIT_AWS_ELB_S3_NOTIFICATION_BUCKET_NAME:
