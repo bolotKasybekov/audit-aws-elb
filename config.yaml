@@ -61,8 +61,8 @@ variables:
     type: string
     default:
     description: "Enter S3 bucket name to upload reports. (Optional)"
-  AUDIT_AWS_ELB_S3_TEST_NAME:
-    required: true
-    type: string
+  #AUDIT_AWS_ELB_S3_TEST_NAME:
+    #required: true
+    #type: string
     #default:
-    description: "Enter Test data"
+    #description: "Enter Test data"
